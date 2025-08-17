@@ -1,0 +1,52 @@
+# WAHS & Advanced Web Application Penetration Testing – Unified Tools Reference
+
+> ⚠️ **Disclaimer:**  
+> Tools listed here are for **educational and lab use only**. Use only in authorized environments.
+
+| Technique / Vulnerability | Representative Tool | Manual / Expert Techniques |
+|----------------------------|------------------|---------------------------|
+| **Advanced SQL Injection (SQLi)** | SQLMap | Crafting custom payloads, blind SQLi exploitation |
+| **Reflected, Stored & DOM XSS** | Burp Suite | Manual payload injection, DOM inspection, script crafting |
+| **Cross Site Request Forgery (CSRF) – GET/POST** | Burp Suite | Manual CSRF token analysis, crafting requests |
+| **Server-Side Request Forgery (SSRF)** | Burp Suite | Crafting SSRF payloads, redirect analysis |
+| **Security Misconfigurations** | Nikto | Manual server header inspection, config file review |
+| **Directory Browsing / Bruteforcing** | Gobuster | Manual URL manipulation |
+| **CMS Vulnerability Scanning** | WPScan | Manual enumeration, plugin/theme checks |
+| **Network Scanning** | Nmap | Manual port/service verification |
+| **Auth Bypass** | Hydra | Manual logic testing, session/token manipulation |
+| **Web App Enumeration** | DirBuster | Manual endpoint mapping, source code analysis |
+| **Dictionary Attack** | John the Ripper | Custom wordlists, manual password testing |
+| **IDOR (Insecure Direct Object Reference)** | Burp Suite | Manual parameter tampering and access testing |
+| **Broken Access Control** | Burp Suite | Manual role switching, session testing |
+| **Local File Inclusion (LFI)** | Burp Suite | Manual payload crafting, file traversal analysis |
+| **Remote File Inclusion (RFI)** | Burp Suite | Manual payload crafting, URL manipulation |
+| **Arbitrary File Download** | Burp Suite | Manual request manipulation, file enumeration |
+| **Arbitrary File Upload** | Burp Suite | File type bypass, MIME manipulation, manual testing |
+| **Using Components with Known Vulnerabilities** | Retire.js | Manual dependency checks, CVE research |
+| **Command Injection** | Metasploit | Manual payload crafting, OS command testing |
+| **Remote Code Execution (RCE)** | Metasploit | Manual code injection, payload testing |
+| **File Tampering** | Burp Suite | Manual request modification, checksum verification |
+| **Privilege Escalation** | LinPEAS | Manual enumeration, sudo / su checks |
+| **Log Poisoning** | Burp Suite | Manual payload injection into logs |
+| **Weak SSL Ciphers** | Nmap | Manual SSL/TLS verification |
+| **Cookie Modification** | Burp Suite | Manual cookie editing, session tampering |
+| **Source Code Analysis** | IDA | Manual logic inspection, reverse engineering |
+| **HTTP Header Modification** | Burp Suite | Manual header injection/testing |
+| **Session Fixation** | Burp Suite | Manual session token manipulation |
+| **Clickjacking** | OWASP ZAP | Manual frame/iframe testing, X-Frame-Options bypass |
+
+---
+
+## ✅ Manual Techniques (Tool-Complementary)
+- Custom payload crafting and injection  
+- Session/cookie analysis and manipulation  
+- Logic flaw exploration, business rule bypass  
+- Manual file enumeration on compromised systems  
+- Decoding/encoding of URL parameters and other hidden fields  
+
+---
+
+## ✅ Usage Notes
+- Start with the representative automated tool for each vulnerability type.  
+- Switch to manual testing to confirm findings, explore deeper logic flaws, and perform privilege escalation.  
+- Always stay within **legal and authorized environments**.

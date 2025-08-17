@@ -29,13 +29,13 @@ Web Application Hacking and Security (W|AHS) – Sample Challenge Set
 ---
 
 ## Challenge 4 (System Compromise)
-1. Compromise a lab machine at IP `172.25.20.223` and determine the username associated with UID 1001.  
+1. Compromise a lab machine at IP `$ip` and determine the username associated with UID 1001.  
 2. Locate a `flag.txt` file on the lab machine.  
 
 ---
 
 ## Challenge 5 (Parameter Tampering)
-1. Perform reconnaissance on a lab target at `172.25.20.48` and identify the encoding used for a URL parameter `ID`.  
+1. Perform reconnaissance on a lab target at `$ip` and identify the encoding used for a URL parameter `ID`.  
 2. Decode the parameter to determine the admin user’s account ID.  
 3. Find the SSN (6-digit format) from the admin profile in the lab system.  
 

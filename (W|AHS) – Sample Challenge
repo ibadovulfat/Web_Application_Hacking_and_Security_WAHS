@@ -1,69 +1,69 @@
-Web Application Hacking and Security (W|AHS) – Sample Challenge Set
+# Web Application Security – Lab-Style Exercises (Conceptual)
 
 > ⚠️ **Disclaimer:**  
-> The following challenges are provided **for educational purposes only** to illustrate the *types of lab tasks* that learners may encounter in web application security training (e.g., W|AHS).  
-> They must only be attempted in **authorized lab environments** such as HackTheBox, VulnHub, local VMs, or official EC-Council labs.  
-> Do **not** attempt these activities on real systems or without permission.  
+> These exercises are **for educational practice in lab environments only**.  
+> Do **not** attempt them on live or unauthorized systems.
 
 ---
 
-## Challenge 1 (CMS Basics)
-1. Identify a valid username to access the admin console of a CMS in a lab environment.  
-2. Identify a valid password to access the CMS admin console.  
-3. Locate a `flag.txt` file on the target web server (lab) and record its content.  
+## Exercise 1 – CMS Fundamentals
+1. Explore the CMS interface to identify user accounts in a controlled lab environment.  
+2. Test authentication mechanisms and understand password handling.  
+3. Locate and analyze sample text content provided in the lab setup.
 
 ---
 
-## Challenge 2 (eCommerce Website)
-1. Identify the login page of the target eCommerce site (URL path after the base address).  
-2. Locate a `user.txt` file on the web server (lab).  
-3. Locate a `Root.txt` file on the web server (lab).  
+## Exercise 2 – E-Commerce Application Lab
+1. Identify key login or access points of a lab eCommerce system.  
+2. Examine how user-specific resources are stored and accessed.  
+3. Explore how administrative or system-level resources are isolated.
 
 ---
 
-## Challenge 3 (CMS Exploitation)
-1. Identify a valid username for the CMS admin console in a web application lab.  
-2. Identify a valid password for the CMS admin console.  
-3. Exploit the lab application to locate a `root.txt` file on the server.  
+## Exercise 3 – CMS Interaction & Exploration
+1. Enumerate admin and regular user accounts safely in a lab setup.  
+2. Observe and test access controls for different account types.  
+3. Explore lab files or data objects to understand permission structures.
 
 ---
 
-## Challenge 4 (System Compromise)
-1. Compromise a lab machine at IP `$ip` and determine the username associated with UID 1001.  
-2. Locate a `flag.txt` file on the lab machine.  
+## Exercise 4 – System Interaction Basics
+1. Access lab machines in a safe, controlled environment.  
+2. Identify users and roles within the lab system.  
+3. Explore file system organization and basic resource retrieval.
 
 ---
 
-## Challenge 5 (Parameter Tampering)
-1. Perform reconnaissance on a lab target at `$ip` and identify the encoding used for a URL parameter `ID`.  
-2. Decode the parameter to determine the admin user’s account ID.  
-3. Find the SSN (6-digit format) from the admin profile in the lab system.  
+## Exercise 5 – Parameter Handling
+1. Analyze URL parameters and other input fields in lab apps.  
+2. Test encoding/decoding and input validation mechanisms.  
+3. Understand how lab systems map parameters to resources or data.
 
 ---
 
-## Challenge 6 (WordPress Login)
-1. Identify the CMS admin account and its password in a WordPress lab environment.  
-2. Retrieve the contents of a `user.txt` file from the target application (lab).  
-3. Retrieve the contents of a `root.txt` file from the target application (lab).  
+## Exercise 6 – CMS Login & Access
+1. Practice logging in with different accounts in a lab WordPress or CMS environment.  
+2. Observe file and data access patterns for users and admins.  
+3. Explore how lab applications handle elevated privileges.
 
 ---
 
-## Challenge 7 (Password Hashing & Login)
-1. Identify a valid username in the web application (lab).  
-2. Determine the password hashing algorithm used by the application.  
-3. Use the username to log in and obtain the value of `flag.txt` from the welcome page.  
+## Exercise 7 – Authentication & Hashing
+1. Examine user login flows in lab apps.  
+2. Identify the types of password storage and hashing mechanisms.  
+3. Test login attempts with controlled lab credentials to understand authentication logic.
 
 ---
 
-## Challenge 8 (CMS + Privilege Escalation)
-1. Identify the CMS admin account and password in the lab system.  
-2. Identify another user account on the application.  
-3. Retrieve the contents of a `user.txt` file from the lab server.  
-4. Retrieve the contents of a `root.txt` file from the lab server.  
+## Exercise 8 – Privilege Escalation Practice
+1. Explore admin and regular user roles in a lab environment.  
+2. Understand access controls and escalation paths conceptually.  
+3. Safely observe how lab setups isolate resources and manage permissions.
 
 ---
 
-## ✅ Ethical Reminder
-- These challenges are **examples only**, representing the *style* of tasks from web application security labs.  
-- They are not real targets and should **never** be applied outside of controlled training environments.  
-- Always follow **responsible and legal cybersecurity practices**.  
+## ✅ Conceptual Notes
+- Focus on **learning the concepts** behind authentication, authorization, and web resource access.  
+- Perform exercises **only in controlled lab environments** (virtual machines, lab platforms).  
+- Avoid referencing any real exam content or sensitive real-world data.  
+- Use these exercises to **practice analysis, enumeration, and safe testing methods**.

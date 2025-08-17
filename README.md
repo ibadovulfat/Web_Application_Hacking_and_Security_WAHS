@@ -28,7 +28,8 @@ I’ve completed several certifications, including:
 - Certified Ethical Hacker (**CEH & CEH Practical**)  
 - Web Application Hacking and Security (**W|AHS**)  
 - Certified Cybersecurity Technician (**C|CT**)  
-- Certified Penetration Testing Specialist (**CPTS – HTB Academy**)  
+- Certified Penetration Testing Specialist (**CPTS – HTB Academy**)
+- Certified Penetration Testing Specialist (**BBH – HTB Academy**)   
 
 I’m also an active bug bounty hunter and top-ranked participant on platforms like **TryHackMe** and **Hack The Box**, where I currently rank in the top **1%**.  
 
@@ -39,4 +40,4 @@ My passion lies in **teaching ethical hacking** through real-world scenarios, ha
 ## 📎 Connect with Me 
 - [LinkedIn](https://www.linkedin.com/in/ibadovulfat/)
 - [Portfolio](https://about.surf)  
-.
+

@@ -40,6 +40,6 @@ My passion lies in **teaching ethical hacking** through real-world scenarios, ha
 ## 📎 Connect with Me 
 - [LinkedIn](https://www.linkedin.com/in/ibadovulfat/)
 - [Portfolio](https://about.surf) 
-- [(W|AHS) Professional certficate](https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=ed2dGj4Z1ySm68ptiidDS5Rw9ELHIbQnb35B90anBck=) 
+- [EC-Council W|AHS Professional Certificate](https://aspen.eccouncil.org/VerifyBadge?&type=certification&a=ed2dGj4Z1ySm68ptiidDS5Rw9ELHIbQnb35B90anBck=) 
 
 

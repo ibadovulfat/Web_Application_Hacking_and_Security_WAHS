@@ -1,0 +1,137 @@
+# Web Application Hacking & Security (W|AHS) – Labs & Cheatsheet 🌐🔐
+
+> This resource is for **educational purposes only**. Perform all exercises in isolated lab environments (VulnHub, HackTheBox, TryHackMe, or EC-Council labs).  
+
+---
+
+## 📂 Table of Contents
+1. [Common Linux Privilege Escalation Techniques](#linux-privilege-escalation-techniques)
+2. [Web Application Labs](#web-application-labs)
+3. [Web Pentesting Lab Recommendations](#web-pentesting-lab-recommendations)
+
+---
+
+## Linux Privilege Escalation Techniques
+
+- Abusing Sudo Rights  
+- SUID Binaries  
+- Capabilities  
+- LXD Privilege Escalation  
+- Docker Privilege Escalation  
+- Exploiting Cron jobs  
+- Writable `/etc/passwd` File  
+- Misconfigured NFS  
+- Exploiting Wildcard  
+- `LD_PRELOAD` Privilege Escalation  
+- Exploiting PATH Variable  
+- Python Library Hijacking  
+- Polkit (CVE-2021-3560)  
+- PwnKit (CVE-2021-4034)  
+- DirtyPipe (CVE-2022-0847)  
+
+---
+
+## Web Application Labs
+
+### Drupal
+| No. | Machine Name     | Exploit / Vulnerability |
+|-----|----------------|------------------------|
+| 1   | Droopy          | Drupalgeddon |
+| 2   | Billu Box 2     | Drupalgeddon2 |
+| 3   | Lampiao : 1     | Drupalgeddon2 |
+| 4   | Typhoon : 1.02  | Drupalgeddon2 |
+| 5   | DC-1            | Drupalgeddon2 |
+| 6   | RootThis : 1    | Manual |
+| 7   | DC:7            | Manual |
+| 8   | DC:8            | Manual |
+
+### Jenkins
+| No. | Machine Name | Exploit / Vulnerability |
+|-----|--------------|------------------------|
+| 1   | Jarbas : 1   | Jenkins Script Console |
+
+### Joomla
+| No. | Machine Name        | Exploit / Vulnerability |
+|-----|--------------------|------------------------|
+| 1   | Hackademic-RTB2     | SQL Injection |
+| 2   | Kevgir              | Joomla Token Exploit |
+| 3   | DC-3                | Joomla com_fields SQL Injection |
+| 4   | Born2Root: 2        | Enumeration |
+
+### WebMin
+| No. | Machine Name | Exploit / Vulnerability |
+|-----|--------------|------------------------|
+| 1   | pWnOS -1.0   | Webmin File Disclosure |
+| 2   | VulnOS: 1    | DistCC Daemon Command Execution |
+| 3   | Nezuko:1     | Webmin Remote Code Execution |
+
+### WordPress
+| No. | Machine Name         | Exploit / Vulnerability |
+|-----|--------------------|------------------------|
+| 1   | Hackademic-RTB1      | Enumeration |
+| 2   | Mr. Robot            | Bruteforce |
+| 3   | Stapler              | Enumeration / Bruteforce |
+| 4   | Minotaur             | SlideShow Gallery Authenticated File Upload |
+| 5   | Freshly              | Manual |
+| 6   | USV                  | Enumeration |
+| 7   | Quaoar               | Enumeration |
+| 8   | Lazysysadmin         | Admin Shell Upload |
+| 9   | BTRSys:dv 2.1        | Enumeration |
+| 10  | Basic Penetration    | Admin Shell Upload |
+| 11  | DerpNStink           | SlideShow Gallery Authenticated File Upload |
+| 12  | BSides Vancouver:2018| Admin Shell Upload |
+| 13  | Raven                | Enumeration |
+| 14  | HackinOS : 1         | Enumeration |
+| 15  | Web Developer : 1    | Photo Gallery Unrestricted File Upload |
+| 16  | DC-2                 | Enumeration / Bruteforce |
+| 17  | DC6                  | Plainview Activity Monitor |
+| 18  | symfonos : 1         | Plugin Mail Masta 1.0 - Local File Inclusion |
+| 19  | PumpkinFestival      | Enumeration |
+| 20  | SP:Jerome            | Crop-image Shell Upload |
+| 21  | dpwwn:2              | Plugin Site Editor 1.1.1 |
+| 22  | GrimTheRipper:1      | Bruteforce |
+| 23  | symfonos : 2         | Plugin Mail Masta 1.0 - Local File Inclusion |
+| 24  | Prime: 1             | Enumeration |
+| 25  | HA: Wordy            | Multiple Vulnerabilities |
+| 26  | Loly: 1              | Plugin AdRotate 3.6.5 - SQL Injection |
+
+### Other CMS / Platforms
+| Platform / CMS | Machine Name | Exploit / Vulnerability |
+|----------------|-------------|------------------------|
+| Builder Engine | Sedna        | builderengine_upload_exec |
+| CMS Made Simple | West Wild: 2 | CMSMS Showtime2 File Upload RCE |
+| CouchDB         | Moonraker:1 | Node.js deserialization RCE |
+| Cuppa           | W1R3S.inc   | LFI / RFI |
+| Cuppa           | BRAVERY     | LFI / RFI |
+| Cute News       | Simple      | Remote File Upload |
+| Impress         | Breach 1.0  | Enumeration |
+| Moodle          | Golden Eye:1| Remote Command Execution |
+| PHP Mailer      | Raven : 2   | RCE |
+| Playsms         | Dina        | Authenticated CSV Upload RCE |
+| Rips            | Mercy       | Multiple Local File Inclusions |
+| Simple PHP Blog | pWnOS -2.0  | Remote Command Execution |
+| Squirrel Mail   | DE-ICE:S1.140 | Enumeration |
+| PHPTax          | Kioprtix: 5 | Remote Code Injection |
+| Wolf            | SickOS 1.1  | Default Credential |
+| Zenphoto        | Orcus       | Enumeration |
+| Redis           | Gemini inc:2| Remote Code Execution |
+| Nano CMS        | LAMPSecurity: CTF 5 | Password Hash Information Disclosure |
+| GUnet OpenEclass| VulnUni 1.0.1 | E-learning Platform RCE |
+
+---
+
+## Web Pentesting Lab Recommendations
+
+For **learning web application security, W|AHS labs, and CTF challenges**, the following lab environments and machines are highly recommended:
+
+- **VulnHub** – variety of vulnerable web apps and OS-level challenges.  
+- **HackTheBox** – web challenges like CMS exploitation, parameter tampering, and privilege escalation.  
+- **TryHackMe** – beginner-friendly labs for SQLi, XSS, CSRF, IDOR, SSRF.  
+- **Custom W|AHS Labs** – isolated lab environments mimicking real-world web applications.  
+- Practice **CMS Exploitation**: Drupal, Joomla, WordPress, Webmin, Moodle, CMS Made Simple.  
+- Practice **Web App Attacks**: Bruteforce login, RCE via file upload, SQL injection, XSS, LFI/RFI.  
+- Focus on **Privilege Escalation** after initial access: Sudo, SUID binaries, misconfigured services, Docker/LXD, CVEs (DirtyPipe, PwnKit, Polkit).  
+
+---
+
+> ⚠️ Remember: Always perform penetration testing in **legal and isolated lab environments**. Never attempt attacks on real-world targets without authorization.

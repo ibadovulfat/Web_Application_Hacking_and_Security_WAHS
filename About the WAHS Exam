@@ -1,0 +1,61 @@
+# 🧠 About the WAHS Exam
+
+The **Web Application Hacking and Security (WAHS)** exam is a hands-on, performance-based certification that tests your ability to exploit and defend against real-world web application vulnerabilities.
+
+---
+
+## 📋 Exam Overview
+- **Title:** Web Application Hacking & Security (WAHS)  
+- **Challenges:** Varying levels (Beginner → Expert)  
+- **Duration:** 6 hours (performance-based exam)  
+- **Format:** Fully online, remotely proctored  
+- **Passing Score:**  
+  - **60%+** → Certified WAHS Associate  
+  - **75%+** → Certified WAHS Professional  
+  - **90%+** → Certified WAHS Expert  
+- **Environment:** Virtual machine with penetration testing toolkit  
+
+---
+
+## 💡 What It Tests
+The WAHS exam challenges you across **OWASP Top 10 vulnerabilities** and advanced exploitation vectors:
+
+- Advanced Web Application Penetration Testing  
+- Advanced SQL Injection (SQLi)  
+- Reflected, Stored & DOM-based Cross-Site Scripting (XSS)  
+- Cross-Site Request Forgery (CSRF)  
+- Server-Side Request Forgery (SSRF)  
+- Security Misconfigurations  
+- Directory Browsing / Bruteforcing  
+- CMS Vulnerability Scanning  
+- Authentication Bypass  
+- Web App Enumeration  
+- Local & Remote File Inclusion (LFI/RFI)  
+- Arbitrary File Upload & Download  
+- Command Injection & Remote Code Execution  
+- Broken Access Control & IDOR  
+- Privilege Escalation & Log Poisoning  
+- Cookie/Session Manipulation & Fixation  
+- Clickjacking & Weak SSL Exploits  
+- Source Code Analysis  
+
+---
+
+## 🏆 Certification Levels
+- **Associate (≥60%)** → Solid foundation in web app hacking  
+- **Professional (≥75%)** → Advanced skills in exploitation & defense  
+- **Expert (≥90%)** → Prestigious mastery certification for elite web app hackers  
+
+---
+
+## 🎯 Who Should Take WAHS?
+- Ethical Hackers / Penetration Testers  
+- Red Team Engineers  
+- Web Application Security Engineers  
+- Incident Responders  
+- Vulnerability Analysts & Managers  
+- Cybersecurity Professionals aiming for **Professional** or **Expert** recognition  
+
+---
+
+🚀 **Level up your hacking skills** → The WAHS exam is not just theory; it’s a **6-hour battle** against real-world challenges where only the most skilled achieve **Expert**.

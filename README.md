@@ -21,15 +21,14 @@ Do **not** use these techniques on real-world applications without proper author
 ---
 
 ##  About Me
-I'm **Ulfat Ibadov**, a penetration tester and cybersecurity mentor currently collaborating with **EC-Council**.  
-My focus is on offensive security — specializing in **red teaming, web exploitation, and vulnerability research**.  
 
 I’ve completed several certifications, including:  
 - Certified Ethical Hacker (**CEH & CEH Practical**)  
 - Web Application Hacking and Security (**W|AHS**)  
 - Certified Cybersecurity Technician (**C|CT**)  
 - Certified Penetration Testing Specialist (**CPTS – HTB Academy**)
-- Certified Penetration Testing Specialist (**BBH – HTB Academy**)   
+- Certified Penetration Testing Specialist (**BBH – HTB Academy**)
+- Certified Penetration Testing Professional (CPENT – AI) – Currently in Preparation
 
 I’m also an active bug bounty hunter and top-ranked participant on platforms like **TryHackMe** and **Hack The Box**, where I currently rank in the top **1%**.  
 
